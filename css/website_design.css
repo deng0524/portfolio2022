@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+* {
+  font-family: "Noto Sans TC", sans-serif !important, "微軟正黑體";
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.container {
+  text-align: center;
+  font-size: 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  margin-top: 15px;
+}
+.block {
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  height: 500px;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.box {
+  height: 190px;
+}
+
+.topbar {
+  width: 100%;
+  height: initial;
+}
+
+.logo {
+  font-style: italic;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+}
+
+.underlined {
+  color: black;
+  flex: 1;
+  font-size: 2em;
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #f8b51a 0, #f8b51a 100%);
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background 0.5s;
+}
+.underlined:hover {
+  background-size: 100% 100%;
+}
+.underlined--offset {
+  background-position: 0 0.2em;
+  box-shadow: inset 0 -0.5em 0 0 white;
+}
+
+#menu-bar {
+  font-size: 25px;
+  cursor: pointer;
+  opacity: 1;
+  display: none;
+}
+#menu-bar:hover {
+  opacity: 0.3;
+}
+
+.sblock {
+  display: inline-block;
+  padding: 10px;
+}
+
+h5 {
+  opacity: 0.3;
+}
+h5:hover {
+  opacity: 1;
+  text-decoration: underline;
+  color: black;
+  transform: scale(1.1);
+}
+
+.website {
+  width: 100%;
+  height: initial;
+  padding: inherit;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+.website .web {
+  vertical-align: top;
+  margin: 8px;
+  padding: 10px;
+  display: inline-block;
+  width: 30%;
+}
+.website .web img {
+  width: 100%;
+  min-width: 150px;
+  transition: box-shadow 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99), transform 600ms cubic-bezier(0.33, 0.11, 0.02, 0.99);
+}
+.website .web img:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1), 8px 32px 32px rgba(0, 0, 0, 0.15), 8px 64px 64px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05) translateY(-0.5rem);
+}
+.website .web h3 {
+  font-size: 35px;
+  padding-top: 20px;
+  position: relative;
+}
+.website .web h3:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #f8b51a;
+  bottom: 9px;
+  transition: all 0.2s ease-out;
+}
+.website .web h3:hover:before {
+  transform: translateY(10px);
+}
+.website .web .title {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to bottom, #000, #000 70%, #fff 60%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+}
+.website .web .title:hover {
+  background-position: 0 11px;
+}
+
+.bottombar {
+  width: 100%;
+  height: initial;
+  font-size: 13px;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    height: 120px;
+  }
+
+  #menu-bar {
+    display: initial;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+
+  nav {
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    border-top: 3px solid #000;
+    transition: 0.5s;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  nav .sblock {
+    display: block;
+  }
+  nav .sblock a {
+    display: block;
+    font-size: 22px;
+    margin: 10px;
+    padding: 6px;
+  }
+  nav.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    padding: 10px;
+  }
+
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: initial;
+  }
+  .container .website {
+    margin-top: 10px;
+  }
+  .container .website .web {
+    display: block;
+    width: 100%;
+    height: initial;
+    margin: 0;
+    padding: 75px;
+  }
+  .container .website .web img {
+    width: 80%;
+  }
+  .container .website .web img:hover {
+    box-shadow: none;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.1), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1), 8px 32px 32px rgba(0, 0, 0, 0.15), 8px 64px 64px rgba(0, 0, 0, 0.15));
+    transform: scale(1.05) translateY(-0.5rem);
+  }
+  .bottombar {
+    margin-top: 85px;
+  }
+}
