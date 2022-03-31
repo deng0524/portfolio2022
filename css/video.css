@@ -27,7 +27,14 @@ h1:hover{
     min-width: 100%;
     min-height: 100%;
 }
-
+/*首頁文字width的響應式值- fill-available*/
+.fill-available{
+    display: inline-block;
+    width: -webkit-fill-available;
+    width: -moz-fill-available;
+    width: -moz-available;
+    width: fill-available;
+}
 /*首頁文字動態效果*/
 .ml1 {
     font-weight: 900;
@@ -64,7 +71,6 @@ h1:hover{
 @media screen and (max-width:800px) {
     .ml1{
         font-size: 3em;
-        width: -webkit-fill-available;
     }
     .video-back{
         min-width: 30%;
@@ -76,7 +82,6 @@ h1:hover{
 @media screen and (max-width:400px) {
     .ml1{
         font-size: 2.2em;
-        width: -webkit-fill-available;
     }
     .video-back{
         min-width: 10%;
