@@ -21,7 +21,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/jmoH9LT.jpg",
       thumb:"https://i.imgur.com/jmoH9LT.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>文宣設計</h4>
+                  <p>攝影與Ai後製</p>
+                </div>`
     }]
       });
   });
@@ -31,7 +34,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/x1KBgi5.jpg",
       thumb:"https://i.imgur.com/x1KBgi5.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>文宣設計</h4>
+                  <p>攝影與Ai後製</p>
+                </div>`
     }]
       });
   });
@@ -41,7 +47,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/YzZdAUQ.jpg",
       thumb:"https://i.imgur.com/YzZdAUQ.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>文宣設計</h4>
+                  <p>攝影與Ai後製</p>
+                </div>`
     }]
       });
   });
@@ -51,7 +60,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/0NLrhzj.jpg",
       thumb:"https://i.imgur.com/0NLrhzj.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>文宣設計</h4>
+                  <p>攝影與Ai後製</p>
+                </div>`
     }]
       });
   });
@@ -61,7 +73,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/aERYwgT.jpg",
       thumb:"https://i.imgur.com/aERYwgT.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>文宣設計</h4>
+                  <p>攝影與Ai後製</p>
+                </div>`
     }]
       });
   });
@@ -71,7 +86,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/ZAdrjKO.jpg",
       thumb:"https://i.imgur.com/ZAdrjKO.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>文宣設計</h4>
+                  <p>攝影與Ai後製</p>
+                </div>`
     }]
       });
   });
@@ -81,7 +99,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/6IrRL1J.jpg",
       thumb:"https://i.imgur.com/6IrRL1J.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>文宣設計</h4>
+                  <p>Ai後製</p>
+                </div>`
     }]
       });
   });
@@ -91,7 +112,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/xLHa9oa.jpg",
       thumb:"https://i.imgur.com/xLHa9oa.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>文宣設計</h4>
+                  <p>Ai後製</p>
+                </div>`
     }]
       });
   });
@@ -102,7 +126,8 @@ $(document).ready(function() {
       src:"https://i.imgur.com/7Nkn0FR.jpg",
       thumb:"https://i.imgur.com/7Nkn0FR.jpg",
       subHtml: `<div class="lightGallery-captions">
-                  <h4>廣告帆布</h4>
+                  <h4>廣告帆布設計</h4>
+                  <p>攝影與Ps合成</p>
                 </div>`
     }]
       });
@@ -116,7 +141,10 @@ $(document).ready(function() {
           dynamicEl: [ {
       src:"https://i.imgur.com/nkqidwx.jpg",
       thumb:"https://i.imgur.com/nkqidwx.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>沙發組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/eTCpRNo.jpg",
@@ -141,7 +169,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/81ACrOP.jpg",
       thumb:"https://i.imgur.com/81ACrOP.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>沙發組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/n3jCUk1.jpg",
@@ -170,7 +201,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/XNdA1cI.jpg",
       thumb:"https://i.imgur.com/XNdA1cI.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>櫥櫃組圖-文宣設計</h4>
+                  <p>攝影與Ai後製</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/eTByawT.jpg",
@@ -191,7 +225,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/63GF0r5.jpg",
       thumb:"https://i.imgur.com/63GF0r5.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>原木家具組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/ex0qwJ2.jpg",
@@ -216,7 +253,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/Y2tbtoP.jpg",
       thumb:"https://i.imgur.com/Y2tbtoP.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>電視櫃組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/RrUhYl7.jpg",
@@ -257,7 +297,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/aLDMUby.jpg",
       thumb:"https://i.imgur.com/aLDMUby.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>沙發組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/gg7xFSN.jpg",
@@ -294,7 +337,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/FhIe2K5.jpg",
       thumb:"https://i.imgur.com/FhIe2K5.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>沙發組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/uk2Os0w.jpg",
@@ -323,7 +369,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/HzkGsfO.jpg",
       thumb:"https://i.imgur.com/HzkGsfO.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>客廳組組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/YBVLIXU.jpg",
@@ -352,7 +401,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/kZrcNuM.jpg",
       thumb:"https://i.imgur.com/kZrcNuM.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>衣櫥組圖-文宣設計</h4>
+                  <p>攝影與Ai後製</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/RaspYOO.jpg",
@@ -417,7 +469,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/7Eyt7Y5.jpg",
       thumb:"https://i.imgur.com/7Eyt7Y5.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>餐桌椅組圖-文宣設計</h4>
+                  <p>攝影與Ps合成+Ai後製</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/jmf8hNP.jpg",
@@ -450,7 +505,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/yduxmPB.jpg",
       thumb:"https://i.imgur.com/yduxmPB.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>客廳組組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/88xc6s2.jpg",
@@ -479,7 +537,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/6S8B8lf.jpg",
       thumb:"https://i.imgur.com/6S8B8lf.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>休閒椅組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/f5sCuvz.jpg",
@@ -512,7 +573,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/l9k9bkr.jpg",
       thumb:"https://i.imgur.com/l9k9bkr.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>北歐風家具組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/rm0Foif.jpg",
@@ -565,7 +629,10 @@ $(document).ready(function() {
           dynamicEl: [{
       src:"https://i.imgur.com/wN5ekar.jpg",
       thumb:"https://i.imgur.com/wN5ekar.jpg",
-      subHtml: `<div class="lightGallery-captions"></div>`
+      subHtml: `<div class="lightGallery-captions">
+                  <h4>板組椅組圖-文宣設計</h4>
+                  <p>攝影與Ps合成</p>
+                </div>`
     },
     {
       src:"https://i.imgur.com/DJ7F6yd.jpg",
@@ -662,7 +729,7 @@ $(document).ready(function() {
       src:"https://i.imgur.com/flWSjvy.jpg",
       thumb:"https://i.imgur.com/flWSjvy.jpg",
       subHtml: `<div class="lightGallery-captions">
-                  <h4>學校繪圖</h4>
+                  <h4>Ai繪圖</h4>
                   <p>對比的寂寞</p>
                 </div>`
     }]
@@ -675,7 +742,7 @@ $(document).ready(function() {
       src:"https://i.imgur.com/pJEQHPF.jpg",
       thumb:"https://i.imgur.com/pJEQHPF.jpg",
       subHtml: `<div class="lightGallery-captions">
-                  <h4>學校繪圖</h4>
+                  <h4>Ai繪圖</h4>
                   <p>新年賀卡</p>
                 </div>`
     }]
@@ -688,17 +755,14 @@ $(document).ready(function() {
       src:"https://i.imgur.com/72mdcBy.jpg",
       thumb:"https://i.imgur.com/72mdcBy.jpg",
       subHtml: `<div class="lightGallery-captions">
-                  <h4>學校繪圖</h4>
+                  <h4>Ai繪圖</h4>
                   <p>貼圖-眼球君的眼球人生</p>
                 </div>`
     },
     {
       src:"https://i.imgur.com/5PtELso.jpg",
       thumb:"https://i.imgur.com/5PtELso.jpg",
-      subHtml: `<div class="lightGallery-captions">
-                  <h4>促銷活動組圖</h4>
-                  <p>貼圖-眼球君的眼球人生</p>
-                </div>`
+      subHtml: `<div class="lightGallery-captions"></div>`
     }]
       });
   });
